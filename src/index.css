@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Montserrat' ;
+  src: url();
+}
+
+:root{
+  font-size: 12px;
+  line-height: 1.5;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #1D252C;
+    /* overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:hidden; */
+}
+
+.active { 
+  background-color: #435665;
+  color: white;
+}
